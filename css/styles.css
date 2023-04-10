@@ -43,8 +43,20 @@ body::-webkit-scrollbar {
   font-size: 150%;
 }
 
-.NKCEsports-twitter > h1 {
-  width: 100px;
+.NKCEsports-twitter > p > a {
+  text-decoration: none;
+  color: white;
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+}
+
+.NKCEsports-twitter > p > a > span {
+  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+    no-repeat;
+  transition: 0.5s;
+}
+.NKCEsports-twitter > p > a > span:hover {
+  --d: 100%;
 }
 
 .NKCEsports-presen {
@@ -64,6 +76,22 @@ body::-webkit-scrollbar {
   margin: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 150%;
+}
+
+.NKCEsports-presen > p > a {
+  text-decoration: none;
+  color: white;
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+}
+
+.NKCEsports-presen > p > a > span {
+  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+    no-repeat;
+  transition: 0.5s;
+}
+.NKCEsports-presen > p > a > span:hover {
+  --d: 100%;
 }
 
 .layer01 {
@@ -88,6 +116,22 @@ body::-webkit-scrollbar {
   margin: 20px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 150%;
+}
+
+.Test00-twitter > p > a {
+  text-decoration: none;
+  color: white;
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+}
+
+.Test00-twitter > p > a > span {
+  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+    no-repeat;
+  transition: 0.5s;
+}
+.Test00-twitter > p > a > span:hover {
+  --d: 100%;
 }
 
 .blank {
