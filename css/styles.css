@@ -3,154 +3,268 @@
   padding: 0;
   margin: 0;
 }
+@media screen and (min-width: 769px) {
+  body::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+  }
 
-body::-webkit-scrollbar {
-  /* Chrome, Safari 対応 */
-  display: none;
-}
+  .header-title-mo {
+    display: none;
+  }
+  .logo-mo {
+    display: none;
+  }
+  .NKCEsports-twitter-mo {
+    display: none;
+  }
+  .NKCEsports-presen-mo {
+    display: none;
+  }
+  .Test00-twitter-mo {
+    display: none;
+  }
 
-.header-title {
-}
+  .header-title > p {
+    font-family: "Righteous", cursive;
+    font-size: 100px;
+  }
 
-.header-title > p {
-  font-family: "Righteous", cursive;
-  font-size: 100px;
-}
+  .logo > img {
+    width: 15%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+  }
 
-.logo > img {
-  width: 200px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
+  .NKCEsports-twitter {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    border: 4px solid;
+    border-color: black;
+  }
 
-.NKCEsports-twitter {
-  margin: 20px;
-  display: flex;
-  width: 50%;
-  border: 4px solid;
-  border-color: black;
-}
+  .NKCEsports-twitter > img {
+    margin: 10px;
+    width: 30%;
+  }
 
-.NKCEsports-twitter > img {
-  margin: 10px;
-  width: 150px;
-}
+  .NKCEsports-twitter > p {
+    margin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 150%;
+  }
 
-.NKCEsports-twitter > p {
-  margin: 10px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 150%;
-}
+  .NKCEsports-twitter > p > a {
+    text-decoration: none;
+    color: white;
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+  }
 
-.NKCEsports-twitter > p > a {
-  text-decoration: none;
-  color: white;
-  text-stroke: 1px #000;
-  -webkit-text-stroke: 1px #000;
-}
+  .NKCEsports-twitter > p > a > span {
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+      no-repeat;
+    transition: 0.5s;
+  }
+  .NKCEsports-twitter > p > a > span:hover {
+    --d: 100%;
+  }
 
-.NKCEsports-twitter > p > a > span {
-  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
-    no-repeat;
-  transition: 0.5s;
-}
-.NKCEsports-twitter > p > a > span:hover {
-  --d: 100%;
-}
+  .NKCEsports-presen {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    border: 4px solid;
+    border-color: black;
+  }
 
-.NKCEsports-presen {
-  margin: 20px;
-  display: flex;
-  width: 50%;
-  border: 4px solid;
-  border-color: black;
-}
+  .NKCEsports-presen > img {
+    margin: 10px;
+    width: 30%;
+  }
 
-.NKCEsports-presen > img {
-  margin: 10px;
-  width: 150px;
-}
+  .NKCEsports-presen > p {
+    margin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 150%;
+  }
 
-.NKCEsports-presen > p {
-  margin: 10px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 150%;
-}
+  .NKCEsports-presen > p > a {
+    text-decoration: none;
+    color: white;
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+  }
 
-.NKCEsports-presen > p > a {
-  text-decoration: none;
-  color: white;
-  text-stroke: 1px #000;
-  -webkit-text-stroke: 1px #000;
-}
+  .NKCEsports-presen > p > a > span {
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+      no-repeat;
+    transition: 0.5s;
+  }
+  .NKCEsports-presen > p > a > span:hover {
+    --d: 100%;
+  }
 
-.NKCEsports-presen > p > a > span {
-  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
-    no-repeat;
-  transition: 0.5s;
-}
-.NKCEsports-presen > p > a > span:hover {
-  --d: 100%;
-}
+  .layer01 {
+    display: flex;
+    justify-content: center;
+  }
 
-.layer01 {
-  display: flex;
-  justify-content: center;
-}
+  .Test00-twitter {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    border: 4px solid;
+    border-color: black;
+  }
 
-.Test00-twitter {
-  margin: 20px;
-  display: flex;
-  width: 50%;
-  border: 4px solid;
-  border-color: black;
-}
+  .Test00-twitter > img {
+    margin: 10px;
+    width: 30%;
+  }
 
-.Test00-twitter > img {
-  margin: 10px;
-  width: 150px;
-}
+  .Test00-twitter > p {
+    margin: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 150%;
+  }
 
-.Test00-twitter > p {
-  margin: 20px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 150%;
-}
+  .Test00-twitter > p > a {
+    text-decoration: none;
+    color: white;
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+  }
 
-.Test00-twitter > p > a {
-  text-decoration: none;
-  color: white;
-  text-stroke: 1px #000;
-  -webkit-text-stroke: 1px #000;
-}
+  .Test00-twitter > p > a > span {
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+      no-repeat;
+    transition: 0.5s;
+  }
+  .Test00-twitter > p > a > span:hover {
+    --d: 100%;
+  }
 
-.Test00-twitter > p > a > span {
-  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
-    no-repeat;
-  transition: 0.5s;
-}
-.Test00-twitter > p > a > span:hover {
-  --d: 100%;
-}
+  .blank {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+  }
 
-.blank {
-  margin: 20px;
-  display: flex;
-  width: 50%;
-}
+  .blank > img {
+    margin: 10px;
+    width: 150px;
+  }
 
-.blank > img {
-  margin: 10px;
-  width: 150px;
-}
+  .blank > p {
+    margin: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
 
-.blank > p {
-  margin: 20px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  .layer02 {
+    display: flex;
+    justify-content: center;
+  }
 }
+@media screen and (max-width: 768px) {
+  .header-title {
+    display: none;
+  }
+  .logo > img {
+    display: none;
+  }
+  .layer01 {
+    display: none;
+  }
+  .layer02 {
+    display: none;
+  }
 
-.layer02 {
-  display: flex;
-  justify-content: center;
+  .header-title-mo > p {
+    font-family: "Righteous", cursive;
+    font-size: 200%;
+    margin: 10px 10px 40px;
+  }
+
+  .logo-mo > img {
+    width: 20%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-color: transparent;
+  }
+
+  .NKCEsports-twitter-mo {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .NKCEsports-twitter-mo > img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  .NKCEsports-twitter-mo > p {
+    tmargin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 100%;
+  }
+
+  .NKCEsports-twitter-mo > p > a {
+    direction: none;
+    color: aliceblue;
+  }
+
+  .NKCEsports-presen-mo {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .NKCEsports-presen-mo > img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  .NKCEsports-presen-mo > p {
+    tmargin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 100%;
+  }
+
+  .NKCEsports-presen-mo > p > a {
+    direction: none;
+    color: aliceblue;
+  }
+
+  .Test00-twitter-mo {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .Test00-twitter-mo > img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  .Test00-twitter-mo > p {
+    tmargin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 100%;
+  }
+
+  .Test00-twitter-mo > p > a {
+    direction: none;
+    color: aliceblue;
+  }
 }
