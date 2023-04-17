@@ -9,19 +9,7 @@
     display: none;
   }
 
-  .header-title-mo {
-    display: none;
-  }
-  .logo-mo {
-    display: none;
-  }
-  .NKCEsports-twitter-mo {
-    display: none;
-  }
-  .NKCEsports-presen-mo {
-    display: none;
-  }
-  .Test00-twitter-mo {
+  .MO {
     display: none;
   }
 
@@ -169,16 +157,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .header-title {
-    display: none;
-  }
-  .logo > img {
-    display: none;
-  }
-  .layer01 {
-    display: none;
-  }
-  .layer02 {
+  .PC {
     display: none;
   }
 
