@@ -1,0 +1,154 @@
+@media screen and (min-width: 769px) {
+  /* PC版 */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .MO {
+    display: none;
+  }
+
+  .header-title > p {
+    font-family: "Righteous", cursive;
+    font-size: 100px;
+    margin-left: 15px;
+  }
+
+  .logo > img {
+    width: 15%;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+  }
+
+  .NKCEsports-twitter {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .NKCEsports-twitter > img {
+    margin: 10px;
+    width: 30%;
+  }
+
+  .NKCEsports-twitter > p {
+    margin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 150%;
+  }
+
+  .NKCEsports-twitter > p > a {
+    text-decoration: none;
+    color: white;
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+  }
+
+  .NKCEsports-twitter > p > a > span {
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+      no-repeat;
+    transition: 0.5s;
+  }
+  .NKCEsports-twitter > p > a > span:hover {
+    --d: 100%;
+  }
+
+  .NKCEsports-presen {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .NKCEsports-presen > img {
+    margin: 10px;
+    width: 30%;
+  }
+
+  .NKCEsports-presen > p {
+    margin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 150%;
+  }
+
+  .NKCEsports-presen > p > a {
+    text-decoration: none;
+    color: white;
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+  }
+
+  .NKCEsports-presen > p > a > span {
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+      no-repeat;
+    transition: 0.5s;
+  }
+  .NKCEsports-presen > p > a > span:hover {
+    --d: 100%;
+  }
+
+  .layer01 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Test00-twitter {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .Test00-twitter > img {
+    margin: 10px;
+    width: 30%;
+  }
+
+  .Test00-twitter > p {
+    margin: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 150%;
+  }
+
+  .Test00-twitter > p > a {
+    text-decoration: none;
+    color: white;
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+  }
+
+  .Test00-twitter > p > a > span {
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 6px
+      no-repeat;
+    transition: 0.5s;
+  }
+  .Test00-twitter > p > a > span:hover {
+    --d: 100%;
+  }
+
+  .blank {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+  }
+
+  .blank > img {
+    margin: 10px;
+    width: 150px;
+  }
+
+  .blank > p {
+    margin: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+
+  .layer02 {
+    display: flex;
+    justify-content: center;
+  }
+}

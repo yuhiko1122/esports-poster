@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+  /* MO版 */
+  .PC {
+    display: none;
+  }
+
+  .header-title-mo > p {
+    font-family: "Righteous", cursive;
+    font-size: 200%;
+    margin: 10px 10px 40px;
+  }
+
+  .logo-mo > img {
+    width: 20%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-color: transparent;
+  }
+
+  .NKCEsports-twitter-mo {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .NKCEsports-twitter-mo > img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  .NKCEsports-twitter-mo > p {
+    tmargin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 100%;
+  }
+
+  .NKCEsports-twitter-mo > p > a {
+    direction: none;
+    color: aliceblue;
+  }
+
+  .NKCEsports-presen-mo {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .NKCEsports-presen-mo > img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  .NKCEsports-presen-mo > p {
+    tmargin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 100%;
+  }
+
+  .NKCEsports-presen-mo > p > a {
+    direction: none;
+    color: aliceblue;
+  }
+
+  .Test00-twitter-mo {
+    margin: 10px auto;
+    display: flex;
+    width: 90%;
+    border: 4px solid;
+    border-color: black;
+  }
+
+  .Test00-twitter-mo > img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  .Test00-twitter-mo > p {
+    tmargin: 10px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 100%;
+  }
+
+  .Test00-twitter-mo > p > a {
+    direction: none;
+    color: aliceblue;
+  }
+}
