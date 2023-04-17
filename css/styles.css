@@ -4,8 +4,8 @@
   margin: 0;
 }
 @media screen and (min-width: 769px) {
+  /* PC版 */
   body::-webkit-scrollbar {
-    /* Chrome, Safari 対応 */
     display: none;
   }
 
@@ -16,12 +16,13 @@
   .header-title > p {
     font-family: "Righteous", cursive;
     font-size: 100px;
+    margin-left: 15px;
   }
 
   .logo > img {
     width: 15%;
     position: absolute;
-    top: 1%;
+    top: 2%;
     right: 1%;
   }
 
@@ -157,6 +158,7 @@
   }
 }
 @media screen and (max-width: 768px) {
+  /* MO版 */
   .PC {
     display: none;
   }
