@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="stylesheet" href="css/PC.css" type="text/css" />
     <link rel="stylesheet" href="css/MO.css" type="text/css" />
+    <link rel="stylesheet" href="css/loading.css" type="text/css" />
+
     <link rel="icon" href="ico/favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,12 +20,23 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Shojumaru&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <title>NKCEsports iNFO</title>
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   </head>
   <body>
+    <div id="splash">
+      <div id="splash_text"></div>
+      <div class="loader_cover loader_cover-up"></div>
+      <div class="loader_cover loader_cover-down"></div>
+    </div>
     <!--headerここから--------------------------------------------------------------------------------->
     <header>
       <div class="PC">
@@ -122,5 +135,16 @@
     </main>
     <!--mainここまで----------------------------------------------------->
     <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <!--IE11用※対応しなければ削除してください-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <!--自作のJS-->
+    <script src="js/loading.js"></script>
   </body>
 </html>
